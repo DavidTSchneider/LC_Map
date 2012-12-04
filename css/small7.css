@@ -1,0 +1,109 @@
+body {
+background-color:#CCCCCC;
+margin:0 auto;
+}	
+
+
+#maincontainer {
+	margin:0 auto;
+	width:90%;
+	background-color:#999;
+	height:auto;
+	}
+	
+#buttonzone{
+	width:100%;
+	background-color:red;
+	float:right;
+	height:150px;
+	}
+	
+#buttonzone2{
+	width:100%;
+	background-color:transparent;
+	float:right;
+	height:auto;
+	margin-top:25px;
+	}
+	
+
+
+
+#announce{
+	width:100%;
+	background-color:#999;
+	float:left;
+	height:50px;
+	text-align:center;
+	color:#FFF;
+	padding:10px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+}
+
+#announce2{
+	width:100%;
+	background-color:#999;
+	float:left;
+	height:50px;
+	text-align:center;
+	color:#FFF;
+	padding:10px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	margin-bottom:50px;
+	margin-top:-10px;
+	
+}
+
+#visual{
+	width:100%;
+	background-color:transparent;
+	float:left;
+	height:auto;
+	text-align:center;
+	margin-top:25px;
+	margin-bottom:0px;
+
+}
+
+
+img {
+	width:100%;
+}
+
+
+
+
+	
+	
+section {
+	float:left;
+	width:100%;
+	height:500px;
+    background-color:orange;
+	} /*must match script dimension*/
+		
+		
+a.button{
+  display:inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width:99%; 
+  height:30px;
+  padding:10px 0px 0px 0px; /*padding on buttons*/
+  border:1px #000 solid;
+  text-align:center;
+  text-decoration:none;
+  color:#FFF;
+  background-color:#0000CC;
+  margin-right:-5px; /*shoves buttons together*/
+  margin-bottom:0px;
+ 
+}
+
+a.button:hover{
+  background-color:#0066FF;
+  text-decoration:none;
+  color:#FFF;
+}
